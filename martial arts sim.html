@@ -1,0 +1,58 @@
+<!--heading styles-->
+<style>
+h1 {
+  text-align: center;
+}
+</style>
+<style>
+  h1 {
+    color: rgb(247, 11, 11);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  </style>
+
+<h1 style="font-family:verdana">MARTIAL ARTS SIMULATION</h1>
+
+
+<!--background image-->
+<style>
+    body {
+      background-image: url("images/background.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: contain;
+    }
+    </style>
+    <!--buttons-->
+    <style>
+      .button {
+        background-color: #fcfdfc; 
+        border: none;
+        color: white;
+        padding: 8px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 9px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      .button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+</style>
+
+
+
+
+
+<canvas id="myCanvas" style="border: 2px solid rgb(255, 255, 255)"  width="1270" height="450" ></canvas>
+<button class="button button3" id="kick">KICK (LEFT ARROW)</button>
+<button class="button button3" id="punch">PUNCH(RIGHT ARROW)</button>
+<button class="button button3" id="backward">BACKWARD(DOWN ARROW)</button>
+<button class="button button3" id="block">BLOCK(PRESS B)</button>
+<button class="button button3" id="forward">FORWARD(UP ARROW)</button>
+
+<script type="text/javascript" src="main.js"></script>
